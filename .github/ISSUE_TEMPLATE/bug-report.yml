@@ -1,0 +1,42 @@
+name: Bug Report
+description: File a bug report.
+title: "[BUG] "
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of what the bug is.
+      placeholder: "A bug happened!"
+
+  - type: textarea
+    id: how-does-it-look
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: "Look at this..."
+
+  - type: textarea
+    id: how-can-we-reproduce
+    attributes:
+      label: To Reproduce
+      description: Please describe the steps to reproduce your problem.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: What should happen?
+      description: A clear and concise description of what you expected to happen.
+      placeholder: "It should work..."
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
+      placeholder: "Maybe you should know that..."
