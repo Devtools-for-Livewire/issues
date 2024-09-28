@@ -2,23 +2,29 @@ name: Bug Report
 description: File a bug report.
 title: "[BUG] "
 body:
-  - type: text
+  - type: input
     id: version
     attributes:
       label: Devtools for Livewire Version
       placeholder: "v1.0.0"
-
-  - type: text
+    validations:
+      required: true
+    
+  - type: input
     id: livewire-version
     attributes:
       label: Livewire Version
       placeholder: "v3.0.0"
+    validations:
+      required: true
 
-  - type: text
+  - type: input
     id: laravel-version
     attributes:
       label: Laravel Version
       placeholder: "v11.0.0"
+    validations:
+      required: true
       
   - type: textarea
     id: what-happened
@@ -26,6 +32,8 @@ body:
       label: What happened?
       description: A clear and concise description of what the bug is.
       placeholder: "A bug happened!"
+    validations:
+      required: true
 
   - type: textarea
     id: how-does-it-look
