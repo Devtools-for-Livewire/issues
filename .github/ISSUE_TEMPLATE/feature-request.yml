@@ -8,6 +8,8 @@ body:
       label: What should happen?
       description: A clear and concise description of what you expect to happen.
       placeholder: "It should..."
+    validations:
+      required: true
 
   - type: textarea
     id: additional-context
