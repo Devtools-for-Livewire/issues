@@ -1,5 +1,7 @@
 ![Devtools for Livewire](https://devtools-for-livewire.com/images/header.png)
 
+[Grab your license now!](https://devtools-for-livewire.com/)
+
 # Components
 -	Understand the hierarchy of components
 -	Highlight components on the page
